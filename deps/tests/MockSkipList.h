@@ -1,7 +1,7 @@
 #ifndef _MOCK_SKIP_LIST_H_
 #define _MOCK_SKIP_LIST_H_
 
-#include "data/skiplist.h"
+#include "deps/data/skiplist.h"
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
 

@@ -1,12 +1,12 @@
 include_directories(
-	"${PROJECT_ROOT_PATH}/googletest/googletest/include/"
-	"${PROJECT_ROOT_PATH}/googletest/googlemock/include/"
-	"${PROJECT_ROOT_PATH}/"
+	"${PROJECT_ROOT_PATH}/deps/googletest/googletest/include/"
+	"${PROJECT_ROOT_PATH}/deps/googletest/googlemock/include/"
+	"${PROJECT_ROOT_PATH}/deps/test"
 )          
 
 link_directories(
-	"${PROJECT_ROOT_PATH}/googletest/googletest/build-aux/"
-	"${PROJECT_ROOT_PATH}/googletest/googlemock/build-aux/"
+	"${PROJECT_ROOT_PATH}/deps/googletest/googletest/build-aux/"
+	"${PROJECT_ROOT_PATH}/deps/googletest/googlemock/build-aux/"
     "${LIBRARY_OUTPUT_PATH}/"
 )
 
