@@ -1,9 +1,7 @@
 include_directories(
 	"${PROJECT_ROOT_PATH}/deps/googletest/googletest/include/"
 	"${PROJECT_ROOT_PATH}/deps/googletest/googlemock/include/"
-  "${PROJECT_ROOT_PATH}/data"
-  "${PROJECT_ROOT_PATH}/net"
-	"${PROJECT_ROOT_PATH}/deps/test"
+  "${PROJECT_ROOT_PATH}/deps"
 )          
 
 link_directories(
