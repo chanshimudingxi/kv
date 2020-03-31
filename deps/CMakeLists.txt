@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
 
-project( deps )
-
 add_definitions(-ggdb3 -Werror -Wno-builtin-macro-redefined -Wno-deprecated)
 add_definitions(-DIM_RUN_MODE)
 

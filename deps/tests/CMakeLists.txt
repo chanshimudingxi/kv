@@ -7,7 +7,7 @@ include_directories(
 link_directories(
 	"${PROJECT_ROOT_PATH}/deps/googletest/googletest/build-aux/"
 	"${PROJECT_ROOT_PATH}/deps/googletest/googlemock/build-aux/"
-    "${LIBRARY_OUTPUT_PATH}/"
+  "${LIBRARY_OUTPUT_PATH}/"
 )
 
 add_executable(test_hashmap test_hashmap.cpp)
